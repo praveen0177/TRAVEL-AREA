@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px black;
+    background-color: black;
+}
+ul li {
+    margin: 10px;
+}
+.navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: 700px;
+    color: green !important;
+}
+#navbarNav {
+    color: white;
+    border-bottom: 2px solid transparent;
+ }
+#navbarNav a:hover {
+    border-bottom: 2px solid green;
+}
+section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home {
+    background: url(https://cdn1.tripoto.com/media/filter/nxxl/img/1524784/Image/1581423097_4_1.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#combodia {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.entrytittle {
+    font-family: var(--blog-item-title-font-font-family);
+    font-style: var(--blog-item-title-font-font-style);
+    font-weight: var(--blog-item-title-font-font-weight);
+    line-height: var(--blog-item-title-font-line-height);
+    letter-spacing: var(--blog-item-title-font-letter-spacing);
+    text-transform: var(--blog-item-title-font-text-transform);
+    padding: 50px;
+}
+.entrytittle{
+    line-height: 1px;
+}
+#booking {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 50px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+    position: absolute;
+}
+.mid {
+    position: relative;
+    
+}
+.mid {
+    margin-left: 220px;
+    margin-bottom: 350px;
+}
+.day {
+    margin-left: -50px;
+    margin-bottom: 210px;
+}
+.daycontent{
+    margin-bottom: 10px;
+}
+.container {
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form {
+    max-width: 100%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#scrolling {
+    margin: 0;
+    padding: 30px, 0, 30px, 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    background-color: #f0f0f0;
+    margin-top: -200px;
+}
+
+.image-scroll-container {
+    width: 50%; /* Adjust width as needed */
+    overflow: hidden; /* Hides the overflow of images */
+    white-space: nowrap; /* Prevents images from wrapping */
+    position: relative;
+}
+
+.image-scroll-container img {
+    width: 100%; /* Ensure images take full width of container */
+    display: inline-block; /* Ensures images stay in line */
+    vertical-align: middle; /* Align images vertically */
+    animation: scroll 20s linear infinite; /* Adjust animation duration (20s) as needed */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+#dropbdown {
+    margin:auto;
+    padding: 20px;
+}
+#dropbdown p {
+    line-height: 1.5;
+    text-align: justify;
+}
+/*grid work*/
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr; /* Two rows of equal height */
+    grid-template-columns: 3fr 3fr ; /* Three columns of equal width */
+    gap: 10px; /* Gap between grid items */
+}
+
+.child:nth-child(odd) {
+    padding: 10px;
+    text-align: center;
+    margin: 30px;
+}
+.child:nth-child(even) {
+    padding: 10px;
+    text-align: center;
+    margin: 30px;
+}
+.one {
+    grid-column: span 2;
+}
+.thire {
+    grid-row: span 3;
+}
+.grid-item img {
+    height: 200px;
+    width: 400px;
+}
+
+.heading {
+    color: rgb(255, 194, 81);
+}

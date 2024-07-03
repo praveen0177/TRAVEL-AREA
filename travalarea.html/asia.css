@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px black;
+    background-color: black;
+}
+ul li {
+    margin: 10px;
+}
+.navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: 700px;
+    color: green !important;
+}
+#navbarNav {
+    color: white;
+    border-bottom: 2px solid transparent;
+ }
+#navbarNav a:hover {
+    border-bottom: 2px solid green;
+}
+/*** HOME***/
+section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home {
+    background: url(https://www.topchinatravel.com/images/asia-tours/asia-tours.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1 {
+    font-size: 50px;
+    font-family: arial;
+    color: white;
+    letter-spacing: 2px;
+}
+#home p{
+    font-family:system-ui;
+    color: white;
+    letter-spacing: 4px;
+    margin: 10px;
+}
+#america {
+    display: flex;
+    flex-direction: row;
+}
+#fooder {
+    background: black;
+    padding-top: 20px;
+}
+
+#fooder h4 {
+    color: rgpa 0, 0, 0, 0.8;
+    font-family: arial;
+    font-size: 20px;
+    margin-right: 800px;
+    line-height: 28px;
+    letter-spacing: 2s;
+}
+.card {
+    box-shadow: 15px 20px 20px #949292,
+                inset 4px 4px 10px white;
+    transition: all;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+/*grid work*/
+.grid-container {
+    display: grid;
+    grid-template-rows: auto auto auto; /* Two rows of equal height */
+    grid-template-columns: auto auto ; /* Three columns of equal width */
+    gap: 10px; /* Gap between grid items */
+}
+
+.grid-item {
+    padding: 10px;
+    text-align: center;
+    margin: 30px;
+}
+.grid-item img {
+    height: 200px;
+    width: 400px;
+}
+.heding {
+    color: rgb(255, 194, 81);
+}

@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px black;
+    background-color: black;
+}
+.navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: 700px;
+    color: green !important;
+}
+.navbar .navbar-brand span {
+    color: white;
+}
+#navbarSupportedContent a {
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover {
+    border-bottom: 2px solid green;
+}
+section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/***home**/
+#homepage {
+    background: linear-gradient(rgb(0,0,0,.4),rgb(0,0,0,.6)),url(siled2.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#homepage h1 {
+    font-size: 100px;
+    color: rgb(248, 248, 248);
+    letter-spacing: 5px;
+    font-family: Verdana;
+    text-shadow: 0px 1px 0px white,
+                 0px 2px 0px white,
+                 0px 3px 0px white,
+                 0px 4px 0px white,
+                 0px 5px 0px white,
+                 0px 6px 0px white;
+
+}
+#homepage span {
+    color: rgb(6, 255, 6);
+    text-shadow: 0px 1px 0px rgb(6,255,6),
+                 0px 2px 9px rgb(6,255,6),
+                 0px 3px 0px rgb(6,255,6),
+                 0px 4px 0px rgb(6,255,6),
+                 0px 5px 0px rgb(6,255,6),
+                 0px 6px 0px rgb(6,255,6);
+}
+#homepage ul li {
+    display: inline;
+    color: white;
+    margin: 20px;
+    font-weight: 40px;
+    
+}
+
+#homepage .input-group {
+    width: 40%;
+    height: 45px;
+}
+
+.signin {
+    background: black !important;
+    color: white !important;
+    border-color: rgb(6,255,6) !important;
+    border-radius: 20px !important;
+    padding: 10px 40px !important;
+    font-family: arial;
+
+}
+/**tour package**/
+#GroupTours {
+    background: #d6d1d1;
+}
+.card {
+    box-shadow: 15px 20px 20px #949292,
+                inset 4px 4px 10px white;
+    transition: all;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.card p {
+    color: rgb(12, 161, 12);
+}
+
+/***contect***/
+#contact form {
+    width: 60%;
+
+}
+#contact input {
+    margin: 5px;
+}
+.box {
+    background-color: rgb(240, 204, 5);
+    box-shadow: 15px 20px 20px #807979;
+                inset: 4px 4px 10px white;
+    padding: 40px;
+     
+}
+.wellcome {
+    background-color: rgb(240, 204, 5);
+    box-shadow: 15px 20px 20px 20px #807979;
+                inset: 4px 4px 10px 10px white;
+}
+.card-body a {
+    background: black !important;
+    color: white !important;
+    border-color: rgb(6,255,6) !important;
+    border-radius: 20px !important;
+    padding: 10px 40px !important;
+    font-family: arial;
+}
+.card {
+    background: rgb(236, 231, 231) !important;
+    border-radius: 10px !important;
+}
+#fooder {
+    background: black;
+    padding-top: 20px;
+}
+
+#fooder h4 {
+    color: rgpa 0, 0, 0, 0.8;
+    font-family: arial;
+    font-size: 20px;
+    margin-right: 800px;
+    line-height: 28px;
+    letter-spacing: 2s;
+}
+/* review peeple animation */
+.reviev-section {
+    display: flex;
+    margin: 20px;
+    padding: 100px;
+    justify-content: space-between;
+    margin-bottom: 100%;
+}
+.reviev-section  {
+    list-style-type: none;
+    padding: 10px;
+}
+.reviev-section {
+    overflow: hidden; /* Hides the overflow of images */
+    position: relative;
+    animation: scroll 20s linear infinite; /* Adjust animation duration (20s) as needed */
+    background-color: white;
+}
+.reviev-section img {
+    display: inline-block; /* Ensures images stay in line */
+    vertical-align: middle; /* Align images vertically */
+    white-space: nowrap; /* Prevents images from wrapping */
+    
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.bg-col1 {
+    background-color: yellow;
+    padding: 28px;
+    padding-bottom: 60px;
+    border-radius: 10px 60px 10px 20px;
+} 
+.bg-col2  {
+    margin-left: 50px;
+    background-color: yellow;
+    padding: 28px;
+    padding-bottom: 60px;
+    border-radius: 10px 70px 10px 20px;
+}
+.bg-col3 {
+    margin-left: 50px;
+    background-color: yellow;
+    padding: 28px;
+    padding-bottom: 60px;
+    border-radius: 10px 70px 10px 20px;
+}
+.bg-col4 {
+    margin-left: 50px;
+    background-color: yellow;
+    padding: 28px;
+    padding-bottom: 60px;
+    border-radius: 10px 70px 10px 20px;
+}
+.bg-col5 {
+    margin-left: 50px;
+    background-color: yellow;
+    padding: 28px;
+    padding-bottom: 60px;
+    border-radius: 10px 70px 10px 20px;
+}
+.bg-col6 {
+    margin-left: 50px;
+    background-color: yellow;
+    padding: 28px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    border-radius: 10px 70px 10px 20px;
+} 
+/*
+.bg-col7 {
+    margin-left: 50px;
+    background-color: yellow;
+    padding: 28px;
+    padding-bottom: 60px;
+    border-radius: 10px 70px 10px 20px;
+} */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+.grid-item {
+    padding: 20px;
+    margin-right: 70px;
+    text-align: center;
+}
+.heading {
+    font-family: "Baskervville SC", serif;
+}
+.grid-item img {
+    height: 200px;
+    width: 350px;
+}
+.plate {
+    margin-top: 20px;
+}
+.wedding-container {
+    display: grid;
+    grid-template-rows: auto auto auto; /* Two rows of equal height */
+    grid-template-columns: auto auto  ; /* Three columns of equal width */
+    gap: 10px; /* Gap between grid items */
+}
+.wed {
+    padding: 18px;
+    margin-right: 70px;
+    text-align: center;
+}
+.wed ul {
+    text-align: start;
+}
+.wed h1 {
+    font-family: "Baskervville SC", serif;
+}
+.wed span {
+    color: red;
+}
+.wed img {
+    height: 200px;
+    width: 350px;
+}

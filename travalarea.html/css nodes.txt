@@ -1,0 +1,95 @@
+1.
+margin  => is a 4 types [ top,right,bottam,left]
+ we are use morgin cmt in css, we able to move your text and picutre ( top,right,bottam,left)
+
+for example
+--------------
+1)
+{
+ margin=" 20px 10px 50px 100px"  
+}
+                                                         // 1=top, 2=right, 3=bottam, 4= left//
+           (or)
+{
+margin_left="20px"
+}
+_____________________________________________________________________________________________________________________________________
+background-color => this will give your bg color
+example
+----------
+{
+background-color= "white"
+}
+---------------------------------------------------------------------------------------------------
+color => it's change your contend color
+example
+-----------
+{
+ color= "white"
+}
+
+---------------------------------------------------------------------------------------------------
+opacity => increse and dicrece color visble (0.1 to 1.0)
+example
+-----------
+{
+ opacity= "0.7"
+}
+---------------------------------------------------------------------------------------------------
+background-image => this defult set your bg
+for example
+-------------
+{
+ background-image: url"":                                       // add pic//
+background-repeat: no repeat;                                //  this no repeat //
+background-position: right top;                             // fix your need place//
+background-attachment: scroll; (or) fixed;            //the two type attachment one fixed , two scroll
+}
+____________________________________________________________________________________________________________________________________
+borders => borders box
+border-width=> it's choise borders size
+border-color => chose your color on border
+
+{
+border-style: ridge;                                                // this border line, u can chiose your borter//
+border-width: thin:                                               //  ,,            ,,    size    ,,       ,,       ,,         ,,    
+border-color: red; 
+}
+
+__________________________________________________________________________________________________________________________________________
+padding=> this all so like margin but sumall diffrend, this not move your pic and letters, this use only increasce your size
+fore example 
+---------------
+{
+padding; 10px                                                        // this increse box in each site( u want increse  purtigular site u need to menson that site//
+padding-left-style:10px;
+} 
+____________________________________________________________________________________________________________________________________
+text-align=> move your need place
+text-decoration
+{
+ text-align: center;
+text-decoration-line: one;                                   //this come to unterline "one"  //
+                                                                                                                       _____
+text-decoration-color:
+}
+
+-------------------------------------------------------------------------------------------------------------------------------------
+text-transform
+{
+text-transform: uppercase;                                       // this write all capital letters//
+text-transform: lowercase;                                      // this will write all sumall letters//
+text-transform: capitalize;                                     //  this come first letter in capital//
+}
+
+----------------------------------------------------------------------------------------------------------------------------------
+text-indent => move your text 
+{
+text-indent: 50px;                                                   // this move 50px in rightsite//
+letter-spacing: 2px; (or) -2px                                //  space between the letters//
+text-shadow: 2px 2px 5px red;                                   //   shadow of your letters// 5px is plerness//
+}
+
+
+--------------------------------------------------------------=================================---------------------------------------======================
+css -day 2

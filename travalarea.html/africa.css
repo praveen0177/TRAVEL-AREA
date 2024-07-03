@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px black;
+    background-color: black;
+}
+ul li {
+    margin: 10px;
+}
+.navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: 700px;
+    color: green !important;
+}
+#navbarNav {
+    color: white;
+    border-bottom: 2px solid transparent;
+ }
+#navbarNav a:hover {
+    border-bottom: 2px solid green;
+}
+/*** HOME***/
+section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home {
+    background: linear-gradient(rgb(0,0,0,.4),rgb(0,0,0,.6)),url(siled4.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1 {
+    font-size: 50px;
+    font-family: arial;
+    color: white;
+    letter-spacing: 2px;
+}
+#home p{
+    font-family:system-ui;
+    color: white;
+    letter-spacing: 4px;
+    margin: 10px;
+}
+#america {
+    display: flex;
+    flex-direction: row;
+}
+#contact1 {
+    background: black;
+}
+#contact1 ul {
+    display: flex;
+    flex-direction: row;
+}
+#contact1 ul li {
+    list-style-type: none;
+}
+#contact1 ul li h3 {
+    color: white;
+    font-family: system-ui;
+}
+#contact1 ul li h1 {
+    color: white;
+    font-size: 20px;
+}
